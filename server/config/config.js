@@ -7,7 +7,7 @@ process.env.PORT = process.env.PORT || 3000
 
 //ENTORNO
 
-process.env.NODE_ENV = process.env.NODE_EN || 'dev'
+process.env.NODE_ENV = process.env.NODE_ENV || 'dev'
 
 
 //BASEDE DATOS
@@ -18,9 +18,11 @@ let urlDB;
 //    urlDB = "mongodb://localhost:27017/cafe"
 //}else{
 
-    urlDB= "mongodb+srv://operaci:operaci@cluster0.0fso4.mongodb.net/cafe"
+    urlDB= "mongodb+srv://operaci:operaci@cluster0.0fso4.mongodb.net/<cafe>?retryWrites=true&w=majority"
     
 //}
+
+
 
 process.env.urlDB= urlDB
 
