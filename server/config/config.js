@@ -18,7 +18,7 @@ let urlDB;
 //    urlDB = "mongodb://localhost:27017/cafe"
 //}else{
 
-    urlDB= "mongodb+srv://operaci:operaci@cluster0.0fso4.mongodb.net/<cafe>?retryWrites=true&w=majority"
+    urlDB= "mongodb+srv://operaci:operaci@cluster0.0fso4.mongodb.net/cafe?retryWrites=true&w=majority"
     
 //}
 
